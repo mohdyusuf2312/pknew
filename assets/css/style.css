@@ -3544,6 +3544,126 @@ ul, ol {
   transform: scale(1.1) rotate(10deg);
 }
 
+/* Policy Pages Styles */
+.policy-section {
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(135, 100, 255, 0.1);
+}
+
+.policy-section:last-child {
+  border-bottom: none;
+}
+
+.policy-section h2 {
+  color: var(--primary-solid);
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+.policy-section h3 {
+  color: var(--text);
+  margin: 25px 0 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.policy-section h4 {
+  color: var(--primary-solid);
+  margin: 20px 0 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.policy-section p {
+  color: var(--text-light);
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.policy-section ul {
+  margin: 15px 0;
+  padding-left: 0;
+}
+
+.policy-section li {
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 8px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.policy-section li::before {
+  content: "•";
+  color: var(--primary-solid);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contact-info {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(135, 100, 255, 0.2);
+  box-shadow: var(--shadow-1);
+}
+
+.contact-info h4 {
+  color: var(--primary-solid);
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.contact-info p {
+  margin-bottom: 8px;
+}
+
+.contact-info a {
+  color: var(--primary-solid);
+  text-decoration: none;
+  transition: var(--transition-1);
+}
+
+.contact-info a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+/* Responsive Policy Pages */
+@media (max-width: 768px) {
+  .policy-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .policy-section h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact-info {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .policy-section {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+  }
+
+  .policy-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .policy-section h3 {
+    font-size: 1.1rem;
+  }
+
+  .contact-info {
+    padding: 15px;
+  }
+}
+
 /* Back to Top Button */
 .back-to-top {
   position: fixed;

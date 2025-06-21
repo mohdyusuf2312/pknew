@@ -39,7 +39,7 @@ include_once "../includes/header.php";
         <h2 class="section-title">Our Services</h2>
         <div class="grid-list">
           <!-- Web Development -->
-          <div class="service-card">
+          <div class="service-card" id="web-dev">
             <div class="card-icon">
               <i class="fas fa-laptop-code"></i>
             </div>
@@ -60,7 +60,7 @@ include_once "../includes/header.php";
           </div>
 
           <!-- Mobile App Development -->
-          <div class="service-card">
+          <div class="service-card" id="mobile">
             <div class="card-icon">
               <i class="fas fa-mobile-alt"></i>
             </div>
@@ -81,7 +81,7 @@ include_once "../includes/header.php";
           </div>
 
           <!-- UI/UX Design -->
-          <div class="service-card">
+          <div class="service-card" id="ui-ux">
             <div class="card-icon">
               <i class="fas fa-paint-brush"></i>
             </div>
@@ -102,7 +102,7 @@ include_once "../includes/header.php";
           </div>
 
           <!-- Digital Marketing -->
-          <div class="service-card">
+          <div class="service-card" id="consulting">
             <div class="card-icon">
               <i class="fas fa-bullhorn"></i>
             </div>
@@ -123,7 +123,7 @@ include_once "../includes/header.php";
           </div>
 
           <!-- SEO Services -->
-          <div class="service-card">
+          <div class="service-card" id="support">
             <div class="card-icon">
               <i class="fas fa-search"></i>
             </div>
