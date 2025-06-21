@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 /**
  * add event listener on multiple elements
  */
@@ -189,19 +187,43 @@ window.addEventListener('scroll', function () {
 const navToggleBtn = document.querySelector('.nav-toggle-btn');
 const navbarList = document.querySelector('.navbar-list');
 
-navToggleBtn.addEventListener('click', function () {
-  navbarList.classList.toggle('active');
+if (navToggleBtn && navbarList) {
+  navToggleBtn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    navbarList.classList.toggle('active');
 
-  // Change icon based on menu state
-  const icon = this.querySelector('i');
-  if (navbarList.classList.contains('active')) {
-    icon.classList.remove('fa-bars');
-    icon.classList.add('fa-times');
-  } else {
-    icon.classList.remove('fa-times');
-    icon.classList.add('fa-bars');
-  }
-});
+    // Change icon based on menu state
+    const icon = this.querySelector('i');
+    if (navbarList.classList.contains('active')) {
+      icon.classList.remove('fa-bars');
+      icon.classList.add('fa-times');
+    } else {
+      icon.classList.remove('fa-times');
+      icon.classList.add('fa-bars');
+    }
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener('click', function (e) {
+    if (!navbarList.contains(e.target) && !navToggleBtn.contains(e.target)) {
+      navbarList.classList.remove('active');
+      const icon = navToggleBtn.querySelector('i');
+      icon.classList.remove('fa-times');
+      icon.classList.add('fa-bars');
+    }
+  });
+
+  // Close menu when clicking on a nav link
+  const navLinks = navbarList.querySelectorAll('.navbar-link');
+  navLinks.forEach(link => {
+    link.addEventListener('click', function () {
+      navbarList.classList.remove('active');
+      const icon = navToggleBtn.querySelector('i');
+      icon.classList.remove('fa-times');
+      icon.classList.add('fa-bars');
+    });
+  });
+}
 
 // Smooth scrolling for internal links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
