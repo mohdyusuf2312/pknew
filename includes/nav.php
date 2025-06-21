@@ -11,8 +11,8 @@
           <li><a href="/pknew/services/" class="navbar-link" data-page="services">Services</a></li>
           <li><a href="/pknew/process/" class="navbar-link" data-page="process">Process</a></li>
           <li><a href="/pknew/portfolio/" class="navbar-link" data-page="portfolio">Portfolio</a></li>
+          <li><a href="/pknew/career/" class="navbar-link" data-page="career">Career</a></li>
           <li><a href="/pknew/blog/" class="navbar-link" data-page="blog">Blog</a></li>
-          <li><a href="/pknew/contact/" class="navbar-link" data-page="contact">Contact</a></li>
         </ul>
       </nav>
 
