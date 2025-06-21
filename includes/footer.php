@@ -61,7 +61,6 @@
         <div class="footer-legal">
           <a href="/pknew/pages/privacy/">Privacy Policy</a>
           <a href="/pknew/pages/terms/">Terms of Service</a>
-          <a href="/pknew/sitemap.xml">Sitemap</a>
         </div>
       </div>
     </div>
