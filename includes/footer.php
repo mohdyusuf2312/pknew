@@ -27,11 +27,12 @@
         <div class="footer-links-wrapper">
           <h5 class="footer-heading">Services</h5>
           <ul class="footer-links">
-            <li><a href="/pknew/pages/services/#ui-ux" class="footer-link">UI/UX Design</a></li>
-            <li><a href="/pknew/pages/services/#web-dev" class="footer-link">Web Development</a></li>
-            <li><a href="/pknew/pages/services/#mobile" class="footer-link">Mobile App Development</a></li>
-            <li><a href="/pknew/pages/services/#consulting" class="footer-link">Tech Consulting</a></li>
-            <li><a href="/pknew/pages/services/#support" class="footer-link">Maintenance & Support</a></li>
+            <li><a href="/pknew/services/#ui-ux" class="footer-link">UI/UX Design</a></li>
+            <li><a href="/pknew/services/#web-dev" class="footer-link">Web Development</a></li>
+            <li><a href="/pknew/services/#mobile" class="footer-link">Mobile App Development</a></li>
+            <li><a href="/pknew/services/#consulting" class="footer-link">Tech Consulting</a></li>
+            <li><a href="/pknew/services/#support" class="footer-link">Maintenance & Support</a></li>
+            <li><a href="/pknew/services/#digital-marketing" class="footer-link">Digital Marketing</a></li>
           </ul>
         </div>
 

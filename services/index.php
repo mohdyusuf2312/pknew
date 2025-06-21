@@ -101,20 +101,21 @@ include_once "../includes/header.php";
             </a>
           </div>
 
-          <!-- Digital Marketing -->
+          <!-- Tech Consulting -->
           <div class="service-card" id="consulting">
             <div class="card-icon">
-              <i class="fas fa-bullhorn"></i>
+              <i class="fas fa-cogs"></i>
             </div>
-            <h3 class="card-title">Digital Marketing</h3>
+            <h3 class="card-title">Tech Consulting</h3>
             <p class="card-text">
-              Grow your online presence with our comprehensive digital marketing strategies and solutions.
+              Strategic technology consulting to help your business leverage the latest technologies and optimize digital processes.
             </p>
             <ul class="service-list">
-              <li>SEO Optimization</li>
-              <li>Social Media Marketing</li>
-              <li>Content Marketing</li>
-              <li>PPC Campaigns</li>
+              <li>Technology Strategy & Planning</li>
+              <li>System Architecture Design</li>
+              <li>Digital Transformation</li>
+              <li>Performance Optimization</li>
+              <li>Security Assessment</li>
             </ul>
             <a href="../contact/" class="btn-text">
               <span>Get Started</span>
@@ -122,20 +123,43 @@ include_once "../includes/header.php";
             </a>
           </div>
 
-          <!-- SEO Services -->
+          <!-- Maintenance & Support -->
           <div class="service-card" id="support">
             <div class="card-icon">
-              <i class="fas fa-search"></i>
+              <i class="fas fa-tools"></i>
             </div>
-            <h3 class="card-title">SEO Services</h3>
+            <h3 class="card-title">Maintenance & Support</h3>
             <p class="card-text">
-              Improve your search engine rankings and drive organic traffic with our comprehensive SEO strategies.
+              Comprehensive maintenance and support services to keep your websites and applications running smoothly and securely.
             </p>
             <ul class="service-list">
-              <li>Technical SEO Audit</li>
-              <li>Keyword Research & Strategy</li>
-              <li>On-page & Off-page SEO</li>
+              <li>Website Maintenance</li>
+              <li>Security Updates & Monitoring</li>
               <li>Performance Optimization</li>
+              <li>Bug Fixes & Troubleshooting</li>
+              <li>24/7 Technical Support</li>
+            </ul>
+            <a href="../contact/" class="btn-text">
+              <span>Get Started</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Digital Marketing -->
+          <div class="service-card" id="digital-marketing">
+            <div class="card-icon">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <h3 class="card-title">Digital Marketing</h3>
+            <p class="card-text">
+              Grow your online presence with our comprehensive digital marketing strategies and data-driven solutions.
+            </p>
+            <ul class="service-list">
+              <li>SEO Optimization</li>
+              <li>Social Media Marketing</li>
+              <li>Content Marketing</li>
+              <li>PPC Campaigns</li>
+              <li>Analytics & Reporting</li>
             </ul>
             <a href="../contact/" class="btn-text">
               <span>Get Started</span>
@@ -144,7 +168,7 @@ include_once "../includes/header.php";
           </div>
 
           <!-- Graphic Design -->
-          <div class="service-card">
+          <div class="service-card" id="graphic-design">
             <div class="card-icon">
               <i class="fas fa-palette"></i>
             </div>
