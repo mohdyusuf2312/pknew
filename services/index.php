@@ -191,6 +191,121 @@ include_once "../includes/header.php";
       </div>
     </section>
 
+    <!-- Pricing Section -->
+    <section class="section pricing" id="pricing">
+      <div class="container">
+        <span class="section-subtitle">Our Pricing</span>
+        <h2 class="section-title">Transparent & Competitive Pricing</h2>
+        <p class="section-description">Choose the perfect package for your business needs. All packages include responsive design, SEO optimization, and ongoing support.</p>
+
+        <div class="pricing-grid">
+          <!-- Static Website Package -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <div class="pricing-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <h3 class="pricing-title">Static Website</h3>
+              <p class="pricing-subtitle">Perfect for portfolios & business showcases</p>
+            </div>
+            <div class="pricing-price">
+              <span class="currency">₹</span>
+              <span class="amount">15,000</span>
+              <span class="period">Starting from</span>
+            </div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Up to 5 pages</li>
+              <li><i class="fas fa-check"></i> Responsive design</li>
+              <li><i class="fas fa-check"></i> Contact form integration</li>
+              <li><i class="fas fa-check"></i> Basic SEO setup</li>
+              <li><i class="fas fa-check"></i> 1 month free support</li>
+              <li><i class="fas fa-check"></i> Social media integration</li>
+            </ul>
+            <a href="../contact/" class="btn btn-outline">Get Started</a>
+          </div>
+
+          <!-- Dynamic Website Package -->
+          <div class="pricing-card featured">
+            <div class="pricing-badge">Most Popular</div>
+            <div class="pricing-header">
+              <div class="pricing-icon">
+                <i class="fas fa-rocket"></i>
+              </div>
+              <h3 class="pricing-title">Dynamic Website</h3>
+              <p class="pricing-subtitle">Advanced functionality & content management</p>
+            </div>
+            <div class="pricing-price">
+              <span class="currency">₹</span>
+              <span class="amount">35,000</span>
+              <span class="period">Starting from</span>
+            </div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Unlimited pages</li>
+              <li><i class="fas fa-check"></i> Content Management System</li>
+              <li><i class="fas fa-check"></i> Database integration</li>
+              <li><i class="fas fa-check"></i> User authentication</li>
+              <li><i class="fas fa-check"></i> Advanced SEO features</li>
+              <li><i class="fas fa-check"></i> 3 months free support</li>
+              <li><i class="fas fa-check"></i> Analytics integration</li>
+            </ul>
+            <a href="../contact/" class="btn btn-primary">Get Started</a>
+          </div>
+
+          <!-- E-commerce Package -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <div class="pricing-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+              <h3 class="pricing-title">E-commerce Store</h3>
+              <p class="pricing-subtitle">Complete online store solution</p>
+            </div>
+            <div class="pricing-price">
+              <span class="currency">₹</span>
+              <span class="amount">50,000</span>
+              <span class="period">Starting from</span>
+            </div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Product catalog management</li>
+              <li><i class="fas fa-check"></i> Payment gateway integration</li>
+              <li><i class="fas fa-check"></i> Inventory management</li>
+              <li><i class="fas fa-check"></i> Order tracking system</li>
+              <li><i class="fas fa-check"></i> Customer accounts</li>
+              <li><i class="fas fa-check"></i> 6 months free support</li>
+              <li><i class="fas fa-check"></i> Marketing tools integration</li>
+            </ul>
+            <a href="../contact/" class="btn btn-outline">Get Started</a>
+          </div>
+        </div>
+
+        <!-- Additional Services -->
+        <div class="additional-services">
+          <h3>Additional Services</h3>
+          <div class="services-list">
+            <div class="service-item">
+              <span class="service-name">Mobile App Development</span>
+              <span class="service-price">₹75,000+</span>
+            </div>
+            <div class="service-item">
+              <span class="service-name">UI/UX Design</span>
+              <span class="service-price">₹20,000+</span>
+            </div>
+            <div class="service-item">
+              <span class="service-name">Digital Marketing (Monthly)</span>
+              <span class="service-price">₹15,000+</span>
+            </div>
+            <div class="service-item">
+              <span class="service-name">Website Maintenance (Monthly)</span>
+              <span class="service-price">₹5,000+</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-note">
+          <p><i class="fas fa-info-circle"></i> All prices are starting estimates. Final pricing depends on specific requirements and project scope. <a href="../contact/">Contact us</a> for a detailed quote.</p>
+        </div>
+      </div>
+    </section>
 
     <!-- Why Choose Us -->
     <section class="section why-choose-us">
