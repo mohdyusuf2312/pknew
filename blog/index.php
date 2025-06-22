@@ -76,7 +76,7 @@ include_once "../includes/header.php";
       <div class="container">
         <div class="pk-blog-list">
           <!-- Post 1 -->
-          <article class="pk-blog-card animate-on-scroll" data-category="marketing">
+          <article class="pk-blog-card animate-on-scroll" id="post1" data-category="marketing">
             <div class="pk-blog-image">
               <img src="/pknew/assets/images/blog-1.jpg" alt="SEO Best Practices">
             </div>
@@ -92,7 +92,7 @@ include_once "../includes/header.php";
           </article>
 
           <!-- Post 2 -->
-          <article class="pk-blog-card animate-on-scroll" data-category="design">
+          <article class="pk-blog-card animate-on-scroll" id="post2" data-category="design">
             <div class="pk-blog-image">
               <img src="/pknew/assets/images/blog-1.jpg" alt="UI Design Trends">
             </div>
@@ -108,7 +108,7 @@ include_once "../includes/header.php";
           </article>
 
           <!-- Post 3 -->
-          <article class="pk-blog-card animate-on-scroll" data-category="tech">
+          <article class="pk-blog-card animate-on-scroll" id="post3" data-category="tech">
             <div class="pk-blog-image">
               <img src="/pknew/assets/images/blog-1.jpg" alt="AI in Development">
             </div>
@@ -124,7 +124,7 @@ include_once "../includes/header.php";
           </article>
 
           <!-- Post 4 -->
-          <article class="pk-blog-card animate-on-scroll" data-category="web">
+          <article class="pk-blog-card animate-on-scroll" id="post4" data-category="web">
             <div class="pk-blog-image">
               <img src="/pknew/assets/images/blog-1.jpg" alt="Web Performance">
             </div>
@@ -140,7 +140,7 @@ include_once "../includes/header.php";
           </article>
 
           <!-- Post 5 -->
-          <article class="pk-blog-card animate-on-scroll" data-category="marketing">
+          <article class="pk-blog-card animate-on-scroll" id="post5" data-category="marketing">
             <div class="pk-blog-image">
               <img src="/pknew/assets/images/blog-1.jpg" alt="Social Media Strategy">
             </div>
@@ -156,7 +156,7 @@ include_once "../includes/header.php";
           </article>
 
           <!-- Post 6 -->
-          <article class="pk-blog-card animate-on-scroll" data-category="design">
+          <article class="pk-blog-card animate-on-scroll" id="post6" data-category="design">
             <div class="pk-blog-image">
               <img src="/pknew/assets/images/blog-1.jpg" alt="UX Research">
             </div>

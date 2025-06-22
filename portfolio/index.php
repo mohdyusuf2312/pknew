@@ -55,7 +55,7 @@ include_once "../includes/header.php";
       <div class="container">
         <div class="pk-portfolio-grid">
           <!-- Project 1 -->
-          <div class="pk-project-card" data-category="web">
+          <div class="pk-project-card" id="project1" data-category="web">
             <div class="pk-project-image">
               <img src="/pknew/assets/images/blog-1.jpg" alt="E-commerce Website">
               <div class="pk-project-overlay">
@@ -75,7 +75,7 @@ include_once "../includes/header.php";
           </div>
 
           <!-- Project 2 -->
-          <div class="pk-project-card" data-category="app">
+          <div class="pk-project-card" id="project2" data-category="app">
             <div class="pk-project-image">
               <img src="/pknew/assets/images/blog-1.jpg" alt="Mobile App">
               <div class="pk-project-overlay">
@@ -95,7 +95,7 @@ include_once "../includes/header.php";
           </div>
 
           <!-- Project 3 -->
-          <div class="pk-project-card" data-category="design">
+          <div class="pk-project-card" id="project3" data-category="design">
             <div class="pk-project-image">
               <img src="/pknew/assets/images/blog-1.jpg" alt="UI/UX Design">
               <div class="pk-project-overlay">
@@ -115,7 +115,7 @@ include_once "../includes/header.php";
           </div>
 
           <!-- Project 4 -->
-          <div class="pk-project-card" data-category="ecommerce">
+          <div class="pk-project-card" id="project4" data-category="ecommerce">
             <div class="pk-project-image">
               <img src="/pknew/assets/images/blog-1.jpg" alt="E-commerce Store">
               <div class="pk-project-overlay">
