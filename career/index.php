@@ -256,7 +256,7 @@ include_once "../includes/header.php";
           <h2>Don't See Your Role?</h2>
           <p>We're always looking for talented individuals. Send us your resume and we'll keep you in mind for future opportunities.</p>
           <div class="cta-buttons">
-            <a href="mailto:careers@pixelkrafts.in" class="btn btn-primary">
+            <a href="mailto:info@pixelkrafts.in" class="btn btn-primary">
               <i class="fas fa-envelope"></i> Send Resume
             </a>
             <a href="https://wa.me/917579966178" class="btn btn-outline-light">
