@@ -95,7 +95,7 @@ include_once "./includes/header.php";
               <li>eCommerce & Web Apps</li>
               <li>AI-Integrated Web Projects</li>
             </ul>
-            <a href="#contact" class="btn-text">
+            <a href="/pknew/contact/" class="btn-text">
               <span>Learn More</span>
               <i class="fas fa-arrow-right"></i>
             </a>
@@ -115,7 +115,7 @@ include_once "./includes/header.php";
               <li>Real-time Features</li>
               <li>Backend & API Integration</li>
             </ul>
-            <a href="#contact" class="btn-text">
+            <a href="/pknew/contact/" class="btn-text">
               <span>Learn More</span>
               <i class="fas fa-arrow-right"></i>
             </a>
@@ -135,7 +135,7 @@ include_once "./includes/header.php";
               <li>LinkedIn & Google Strategy</li>
               <li>Analytics & Optimization</li>
             </ul>
-            <a href="#contact" class="btn-text">
+            <a href="/pknew/contact/" class="btn-text">
               <span>Learn More</span>
               <i class="fas fa-arrow-right"></i>
             </a>
@@ -143,7 +143,7 @@ include_once "./includes/header.php";
         </div>
 
         <div class="section-cta">
-          <a href="/pknew/pages/services/" class="btn btn-primary">Explore All Services</a>
+          <a href="/pknew/services/" class="btn btn-primary">Explore All Services</a>
         </div>
       </div>
     </section>
@@ -228,7 +228,7 @@ include_once "./includes/header.php";
         </div>
 
         <div class="section-cta">
-          <a href="/pknew/pages/process/" class="btn btn-primary">Learn About Our Process</a>
+          <a href="/pknew/process/" class="btn btn-primary">Learn About Our Process</a>
         </div>
       </div>
     </section>
@@ -269,7 +269,7 @@ include_once "./includes/header.php";
             </ul>
             
             <div class="about-cta">
-              <a href="#contact" class="btn btn-primary">Get In Touch</a>
+              <a href="#/pknew/contact/" class="btn btn-primary">Get In Touch</a>
               <a href="assets/catalogue.pdf" class="btn btn-outline">Download Portfolio</a>
             </div>
           </div>
@@ -280,7 +280,7 @@ include_once "./includes/header.php";
         </div>
 
         <div class="section-cta">
-          <a href="/pknew/pages/about/" class="btn btn-primary">Learn More About Us</a>
+          <a href="/pknew/about/" class="btn btn-primary">Learn More About Us</a>
         </div>
       </div>
     </section>
@@ -357,7 +357,7 @@ include_once "./includes/header.php";
               <span class="portfolio-category">Web Development</span>
               <h3 class="portfolio-title">Modern E-commerce Platform</h3>
               <p class="portfolio-description">A full-featured online store with advanced product management and payment integration.</p>
-              <a href="pages/portfolio/project1" class="btn-text">
+              <a href="/pknew/portfolio/#project1" class="btn-text">
                 <span>View Project</span>
                 <i class="fas fa-arrow-right"></i>
               </a>
@@ -372,7 +372,7 @@ include_once "./includes/header.php";
               <span class="portfolio-category">App Development</span>
               <h3 class="portfolio-title">Fitness Tracking App</h3>
               <p class="portfolio-description">Cross-platform mobile application for tracking workouts and nutrition.</p>
-              <a href="pages/portfolio/project2" class="btn-text">
+              <a href="/pknew/portfolio/#project2" class="btn-text">
                 <span>View Project</span>
                 <i class="fas fa-arrow-right"></i>
               </a>
@@ -387,7 +387,7 @@ include_once "./includes/header.php";
               <span class="portfolio-category">UI/UX Design</span>
               <h3 class="portfolio-title">Banking Dashboard</h3>
               <p class="portfolio-description">Modern banking interface with intuitive user experience and real-time analytics.</p>
-              <a href="pages/portfolio/project3" class="btn-text">
+              <a href="/pknew/portfolio/#project3" class="btn-text">
                 <span>View Project</span>
                 <i class="fas fa-arrow-right"></i>
               </a>
@@ -396,7 +396,7 @@ include_once "./includes/header.php";
         </div>
 
         <div class="section-cta">
-          <a href="/pknew/pages/portfolio/" class="btn btn-primary">View All Projects</a>
+          <a href="/pknew/portfolio/" class="btn btn-primary">View All Projects</a>
         </div>
       </div>
     </section>
@@ -423,7 +423,7 @@ include_once "./includes/header.php";
               </div>
               <h3 class="blog-title">Top Web Development Trends in 2024</h3>
               <p class="blog-excerpt">Explore the latest trends shaping the future of web development and how they impact your business.</p>
-              <a href="pages/blog/post1" class="btn-text">
+              <a href="/blog/#post1" class="btn-text">
                 <span>Read More</span>
                 <i class="fas fa-arrow-right"></i>
               </a>
@@ -445,7 +445,7 @@ include_once "./includes/header.php";
               </div>
               <h3 class="blog-title">Mobile App Development Best Practices</h3>
               <p class="blog-excerpt">Learn the essential best practices for creating successful mobile applications in today's market.</p>
-              <a href="pages/blog/post2" class="btn-text">
+              <a href="/blog/#post2" class="btn-text">
                 <span>Read More</span>
                 <i class="fas fa-arrow-right"></i>
               </a>
@@ -467,7 +467,7 @@ include_once "./includes/header.php";
               </div>
               <h3 class="blog-title">The Importance of User Experience in Web Design</h3>
               <p class="blog-excerpt">Discover why user experience is crucial for your website's success and how to improve it.</p>
-              <a href="pages/blog/post3" class="btn-text">
+              <a href="/blog/#post3" class="btn-text">
                 <span>Read More</span>
                 <i class="fas fa-arrow-right"></i>
               </a>
@@ -476,7 +476,7 @@ include_once "./includes/header.php";
         </div>
 
         <div class="blog-cta">
-          <a href="/pknew/pages/blog/" class="btn btn-primary">View All Posts</a>
+          <a href="/pknew/blog/" class="btn btn-primary">View All Posts</a>
         </div>
       </div>
     </section>
@@ -588,7 +588,7 @@ include_once "./includes/header.php";
           <h2>Ready to Start Your Project?</h2>
           <p>Let's create something amazing together.</p>
           <div class="cta-buttons">
-            <a href="/pknew/pages/contact/" class="btn btn-primary">
+            <a href="/pknew/contact/" class="btn btn-primary">
               <i class="fas fa-rocket"></i> Start Your Project
             </a>
             <a href="https://wa.me/917579966178" class="btn btn-outline-light">
