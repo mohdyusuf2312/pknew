@@ -163,9 +163,9 @@ include_once "../includes/header.php";
                 With over 5 years of experience in web development and software architecture, Shuja leads our technical team.
               </p>
               <div class="team-social">
-                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/shujaurrahman/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/shujaurrahman" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.shujaurrahman.me" class="social-link"><i class="fa-solid fa-user-tie"></i></a>
               </div>
             </div>
           </div>
@@ -181,8 +181,8 @@ include_once "../includes/header.php";
                 Faizan brings his expertise in UI/UX design and digital strategy to create engaging user experiences.
               </p>
               <div class="team-social">
-                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                <a href="https://www.linkedin.com/in/syed-faizan-jeelani-811378250/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/syedfaizan4157" class="social-link"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
               </div>
             </div>
@@ -190,21 +190,40 @@ include_once "../includes/header.php";
 
           <div class="team-card">
             <div class="team-img">
-              <img src="/pknew/assets/images/blog-1.jpg" alt="Jaya Rawat">
+              <img src="/pknew/assets/images/blog-1.jpg" alt="Monis">
             </div>
             <div class="team-content">
-              <h3 class="team-name">Jaya Rawat</h3>
+              <h3 class="team-name">Monis</h3>
               <p class="team-position">SEO Expert & Social Media Manager</p>
               <p class="team-bio">
-                Jaya specializes in SEO optimization and social media management, helping businesses grow their online presence.
+                Monis specializes in SEO optimization and social media management, helping businesses grow their online presence.
               </p>
               <div class="team-social">
-                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/monis-parvez-061684224/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/monisss_._/" class="social-link"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
               </div>
             </div>
           </div>
+
+          <div class="team-card">
+            <div class="team-img">
+              <img src="/pknew/assets/images/blog-1.jpg" alt="Mohd Yusuf">
+            </div>
+            <div class="team-content">
+              <h3 class="team-name">Mohd Yusuf</h3>
+              <p class="team-position">Software Developer</p>
+              <p class="team-bio">
+                Yusuf is a passionate software developer with expertise in Flutter, Firebase, Node.js, and JavaScript. He loves building intuitive mobile and web applications that solve real-world problems. Currently working on AI-powered and e-commerce solutions.
+              </p>
+              <div class="team-social">
+                <a href="https://www.linkedin.com/in/mohdyusuf2312/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/mohdyusuf2312" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="mailto:mohdyusufr@gmail.com" class="social-link"><i class="fa-regular fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
