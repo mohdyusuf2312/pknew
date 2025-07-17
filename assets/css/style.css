@@ -619,7 +619,7 @@ ul, ol {
 
 /* Overlay for mobile menu */
 @media (max-width: 992px) {
-  .navbar-list.active::before {
+/*   .navbar-list.active::before {
     content: '';
     position: fixed;
     top: 0;
@@ -629,7 +629,7 @@ ul, ol {
     background: rgba(0, 0, 0, 0.3);
     z-index: -1;
     backdrop-filter: blur(2px);
-  }
+  } */
 
   /* Ensure hamburger button is always visible */
   .nav-toggle-btn {
